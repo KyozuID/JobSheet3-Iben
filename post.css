@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    height: 100%;
+    background: url(foto.jpg);
+    background-repeat: no-repeat; /* menghindari pengulangan gambar */
+    background-position: center center; /* memposisikan gambar di tengah */
+    background-attachment: fixed;
+}
+
+h2 {
+    margin: 3%;
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 15px 15px rgb(80, 60, 64);
+    width: 50%;
+    /* text-align: center; */
+}
+
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8ba08c;
+    transition: 0.5s;
+}
+
+p {
+    margin-bottom: 5px;
+}
