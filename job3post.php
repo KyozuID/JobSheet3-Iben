@@ -19,7 +19,6 @@
         <button>Kirim</button>
         </form>
     </div> 
-</body>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Mengambil data dari formulir
@@ -31,4 +30,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p>Alamat: $alamat</p>";
 }
 ?>
+</body>
 </html>
